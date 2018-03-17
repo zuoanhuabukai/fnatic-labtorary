@@ -17,7 +17,7 @@ public class UserController {
     @ResponseBody
     public User getUserById(Long id){
         User u = new User();
-        u.setId(1l);
+        u.setId(id);
         u.setName("Tom");
         u.setAge(20);
 
